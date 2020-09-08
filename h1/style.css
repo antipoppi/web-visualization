@@ -1,0 +1,53 @@
+section,
+article,
+aside,
+footer,
+header,
+nav {
+    display: block;
+}
+
+.page {
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.advert {
+    margin-left: 2em;
+}
+
+figure {
+    margin-left: 2em;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: lightgray;
+}
+
+header {
+    background: pink;
+}
+
+article {
+    background: lightblue;
+    width: 80%;
+}
+
+footer {
+    background: lightyellow;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
