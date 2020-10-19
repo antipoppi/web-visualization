@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>Responsive Design</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class='jumbotron jumbotron-fluid text-center mb-0'>
+        <img src='images/header.svg' />
+    </header>
+    <main class='container-fluid px-0'>
+
+        <section class="container my-3">
+            <div class="row">
+                <div class="col bg-warning text-center py-3 rounded">
+                    <img src='images/feature.svg' class="img-fluid" alt="Feature image" />
+                </div>
+                <div class="col bg-danger text-center py-3 rounded">
+                    <img src='images/feature.svg' class="img-fluid" alt="Feature image" />
+                </div>
+                <div class="col bg-info text-center py-3 rounded">
+                    <img src='images/feature.svg' class="img-fluid" alt="Feature image" />
+                </div>
+
+            </div>
+        </section>
+        <article class="container px-0 pb-5 min-vh-auto">
+            <div class="card text-white bg-dark">
+                <div class="card-header">
+                    <h3>This is a form</h3>
+                </div>
+                <div class="card-body mx-auto w-75 pb-4">
+                    <form>
+                        <figure class="container-fluid rounded text-center bg-warning py-3 mb-3">
+                            <img src="images/enso.svg" class="img-fluid p-2" alt="Enso image" />
+                            <figcaption class="font-weight-bold text-dark">Form is emptiness and emptiness is form</figcaption>
+                        </figure>
+                        <div class="form-group">
+                            <label for="inputName">Your name</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Matti Meikäläinen">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail">Your email address</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-4">Choose a checkbox</div>
+                            <div class="col-sm-8">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="chkBox1">
+                                    <label class="form-check-label" for="chkBox1">This is checkbox #1</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="chkBox2">
+                                    <label class="form-check-label" for="chkBox1">This is checkbox #2</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="chkBox3">
+                                    <label class="form-check-label" for="chkBox1">This is checkbox #3</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-lg-9">
+                                <label for="select">Choose selections between <span class="font-weight-bold">1-10</span></label>
+                                <select multiple class="form-control bg-warning" id="select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                </select>
+                            </div>
+                        </div>
+                        <fieldset class="form-group">
+                            <div class="row">
+                                <legend class="col-form-label col-sm-4">Choose a radiobutton</legend>
+                                <div class="col-sm-8">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                        <label class="form-check-label" for="gridRadios1">
+                                            <span class="text-danger font-weight-bold">First radio</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                        <label class="form-check-label" for="gridRadios2">
+                                            <span class="text-info font-weight-bold">Second radio</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-check disabled">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                                        <label class="form-check-label" for="gridRadios3">
+                                            <span class="text-monospace">Third radio is disabled by default</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-secondary text-warning"><span class="font-weight-bold">Submit</span></button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </article>
+
+    </main>
+    <footer class='navbar bg-success'>
+        <div class="container">
+            <img src='images/sign-up.svg' class="img-fluid mx-auto py-3" alt="Signup image" />
+        </div>
+    </footer>
+
+</body>
+
+</html>
