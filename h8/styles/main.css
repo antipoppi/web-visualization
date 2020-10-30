@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  background-color: #EFEFEF; }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #565656;
+  padding: 0;
+  margin-bottom: 2em; }
+  header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color: #5D6063;
+    color: #000000; }
+  header #headerquoteDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12px 12px 20px 20px;
+    background-color: #D3D3D3;
+    padding: 5px; }
+    header #headerquoteDiv .headerquote {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      color: #76323F;
+      padding: 5px; }
+  header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: -40px;
+    list-style-type: none; }
+    header ul li {
+      padding: 5px; }
+      header ul li a:link,
+      header ul li a:visited {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        background-color: #76323F;
+        border-radius: 5px;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        color: #D3D3D3;
+        display: inline-block; }
+      header ul li a:hover,
+      header ul li a:active {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        background-color: #76323F;
+        border-radius: 5px;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        color: #D3D3D3;
+        display: inline-block;
+        background-color: #EFEFEF;
+        color: #000000; }
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  main article {
+    margin-bottom: 24px;
+    width: 650px; }
+    main article h2 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 26px;
+      color: #76323F;
+      margin-left: 2em; }
+    main article p {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.8em;
+      color: #5D6063; }
+      main article p .quote, main article p .quote-bold, main article p .quote-italic {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        background-color: #D3D3D3;
+        color: #76323F;
+        padding: 5px; }
+      main article p .quote-bold {
+        font-weight: 900; }
+      main article p .quote-italic {
+        font-style: italic; }
+
+footer {
+  background-color: #D3D3D3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 15px; }
+  footer span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.8em;
+    color: #000000; }
+  footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: -40px;
+    list-style-type: none; }
+    footer ul li {
+      padding: 5px; }
+      footer ul li a:link,
+      footer ul li a:visited {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        background-color: #76323F;
+        border-radius: 5px;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        color: #D3D3D3;
+        display: inline-block;
+        color: #EFEFEF; }
+      footer ul li a:hover,
+      footer ul li a:active {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        background-color: #76323F;
+        border-radius: 5px;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        color: #D3D3D3;
+        display: inline-block;
+        background-color: #EFEFEF;
+        color: #000000; }
+
+/*# sourceMappingURL=main.css.map */

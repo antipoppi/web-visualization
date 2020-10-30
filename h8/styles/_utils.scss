@@ -1,0 +1,11 @@
+@mixin flexCenterpage($direction) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $direction
+}
+
+@mixin ulNoStyle {
+    margin-left: -40px;
+    list-style-type: none;
+}
