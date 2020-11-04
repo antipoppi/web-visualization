@@ -1,0 +1,31 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+#nappula {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    transition: filter 300ms ease;
+}
+
+#nappula:hover {
+    filter: brightness(75%)
+}
+
+#nappula:active {
+    filter: hue-rotate(150deg);
+}
+
+#svg2 {
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    display: block;
+    transition: filter 300ms ease;
+}
