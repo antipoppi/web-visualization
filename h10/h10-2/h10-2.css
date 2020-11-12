@@ -1,0 +1,18 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#svgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#svg-kuva {
+    width: 450px;
+}
