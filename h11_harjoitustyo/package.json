@@ -1,0 +1,20 @@
+{
+  "name": "h11_harjoitustyo",
+  "version": "1.0.0",
+  "description": "Web-visualisointi harjoitustyö",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tatu Alatalo n4927@student.jamk.fi",
+  "license": "ISC"
+}
