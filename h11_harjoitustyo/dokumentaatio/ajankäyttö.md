@@ -4,7 +4,7 @@
 
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
-| 07.12.2020 | 5.25h | 5.25h |
+| 07.12.2020 | 5½h | 5.5h |
 
 Harjoitustyön aloitus. Otin käyttöön npm projektin jossa hyödynnän bootstrappia ja gulppia. [Linkki ohjeeseen jota käytin](https://medium.com/swlh/setting-up-gulp-4-0-2-for-bootstrap-sass-and-browsersync-7917f5f5d2c5). Asensin npm:llä lisäksi bootstrapin tarvitsemat popper.js:n ja jQueryn. Aikaa meni enimmäkseen gulpin tutustumiseen, teinkin oman funktion gulpfile.js:ään jolla siirrän tarvittavat javascript-tiedostot "src/js" kansioon. Olin yllättynyt kuinka kätevä tuo oma sass-tiedosto onkaan, kun importtaa mukaan tuon bootstrapin oman sassin. Samalla testasin myös, miten mediaa käsitellään tuossa omassa sass-tiedostossa. 
 - [Kuva 1. Gulp seuraa muutoksia](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/gulp.png)
