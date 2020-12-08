@@ -17,7 +17,14 @@ EDIT: Piti tehdä vielä koko homma uusiksi, koska unohdin initoida koko projekt
 
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
-| 08.12.2020 | --- | --- |
+| 08.12.2020 | 3½ | 10h |
+
+Tänään meni niin myöhään kun pääsin aloittamaan, niin suoritin päivän mittaan ajatustyötä minkälaista layouttia lähden tekemään kunhan koneelle pääsen. Eipä tuossa ollut kuin naputteli menemään vain. Lisäsin alustavan layoutin, joka omasta mielestäni toimii tällaisessa verkkokauppa-tapauksessa. Header, navbar, main ja footer (joka on aina sivun pohjalla). Alustavaa värimaailmaakin mietin, tällä hetkellä se on tuo. Ehkä päädyn kuitenkin lopulta hempeämpiin väreihin, mutta toisaalta tämä luo hyvän kontrastin. Huomasin, että [bootstrapin mixinejä ei tarvitse kaikkia importata](https://getbootstrap.com/docs/4.5/getting-started/theming/#importing), mutta en alkanut ottamaan siitä enempää tälle illalle selvää. Katson sitä huomenna. Sillä ainakin saisi tuon css-tiedoston kokoa pienennettyä huomattavasti.
+
+- [08.12 kuva 1 - mobiilinäkymä](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/081201.png)
+- [08.12 kuva 2 - työpöytänäkymä](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/081202.png)
+
+Poika oli vielä tänään kuumeessa, niin huomenna pääsee taas aloittamaan vasta illalla... Kaikki ei aina mene niinkuin on suunnitellut, mutta uskon, että tästä hyvä tulee.
 
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
