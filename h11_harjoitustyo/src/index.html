@@ -9,7 +9,7 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <header class="mb-3">
+    <header class="mb-3 shadow-lg">
         <div class="jumbotron jumbotron-fluid bg-dark text-primary text-center mb-0">
             <h1>Musiikkikauppa Nuotti</h1>
         </div>
@@ -38,7 +38,19 @@
                 </div>
                 <!-- Right Side Of Navbar -->
                 <a class="navbar-brand" href="#">
-                    <img id="shopping_cart_empty" src="assets/svg/shopping_cart_empty.svg" class="img-fluid float-right" alt="Shopping cart empty">
+                    <div id="shopping_cart_container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.758 97.024">
+                            <g fill="#1a1a1a" fill-opacity="0.01" stroke="#1a1a1a">
+                                <g transform="translate(-47.838 -29.879)" stroke-width="4">
+                                    <path style="mix-blend-mode:normal" d="M48.376 31.805s17.62 4.925 22.718 11.76C81.884 58.03 81.25 96.746 81.25 96.746l59.868-.529 13.88-51.803-70.54-.85"/>
+                                    <path d="M90.638 96.718l-7.517 13.664h53.988"/>
+                                    <ellipse cx="128.119" cy="118.219" rx="7.114" ry="6.684"/>
+                                    <ellipse cx="91.819" cy="117.831" rx="7.114" ry="6.684"/>
+                                </g>
+                                <path d="M33.404 27.054H99.84M35.601 40.506h58.2m-55.18 12.628h51.337" stroke-width="1.165"/>
+                            </g>
+                        </svg>
+                    </div>
                 </a>
             </div>
             
@@ -48,11 +60,30 @@
     </header>
 
     <main class="container-fluid flex-grow-1 my-3">
-        <div class="container-fluid col-md-8">
+        <div class="container-fluid col-md-8 flex-column">
             <div class="mx-auto text-center mb-3">
-                <h2>Tervetuloa ostoksille</h5>
+                <h2 class="mb-3">Tervetuloa ostoksille!</h2>
             </div>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="nuottiContainer" class="mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.32 69.918">
+                    <g fill="#1a1a1a" stroke="#1a1a1a">
+                        <g transform="translate(-33.218 -10.065)">
+                            <ellipse ry="8.442" rx="13.452" cy="59.916" cx="46.67" stroke="none"/>
+                            <path d="M59.11 60.565v-49.5" stroke-width="2" stroke-linecap="round"/>
+                        </g>
+                        <g transform="translate(1.373 1.56)">
+                            <ellipse ry="8.442" rx="13.452" cy="59.916" cx="46.67" stroke="none"/>
+                            <path d="M59.11 60.565l.057-48.554" stroke-width="2" stroke-linecap="round"/>
+                        </g>
+                        <g transform="translate(37.198 -10.244)">
+                            <ellipse ry="8.442" rx="13.452" cy="59.916" cx="46.67" stroke="none"/>
+                            <path d="M59.11 60.565v-49.5" stroke-width="2"/>
+                        </g>
+                        <path d="M25.892 1L60.54 13.572" stroke-width="2" stroke-linecap="round"/>
+                    </g>
+                </svg>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide shadow-lg" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
