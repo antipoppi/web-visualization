@@ -8,9 +8,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="108.08266mm"
-   height="94.986099mm"
-   viewBox="0 0 108.08266 94.986099"
+   width="109.54233mm"
+   height="115.99084mm"
+   viewBox="0 0 109.54233 115.99084"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
@@ -19,10 +19,10 @@
      id="defs2">
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : -53.513903 : 1"
-       inkscape:vp_y="0 : 999.99993 : 0"
-       inkscape:vp_z="210.00001 : -53.513903 : 1"
-       inkscape:persp3d-origin="105.00001 : -103.0139 : 1"
+       inkscape:vp_x="0 : -32.509168 : 1"
+       inkscape:vp_y="0 : 999.99998 : 0"
+       inkscape:vp_z="210 : -32.509168 : 1"
+       inkscape:persp3d-origin="105.00001 : -82.009168 : 1"
        id="perspective3002" />
     <linearGradient
        id="linearGradient2891"
@@ -40,9 +40,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.96377842"
-     inkscape:cx="-3.5448538"
-     inkscape:cy="194.39923"
+     inkscape:zoom="1.3629885"
+     inkscape:cx="156.20739"
+     inkscape:cy="327.90301"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      inkscape:document-rotation="0"
@@ -75,44 +75,57 @@
      inkscape:label="Taso 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-24.151975,-34.640608)" />
+     transform="translate(-23.692268,-33.752538)" />
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Taso 2"
-     transform="translate(-24.151975,-34.640608)">
+     transform="translate(-23.692268,-33.752538)">
     <g
        id="g5306"
-       style="opacity:1"
-       transform="translate(-23.764102,3.723606)">
+       style="opacity:1;fill:none;fill-opacity:1;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="translate(-23.764102,22.665979)">
       <path
-         style="display:inline;mix-blend-mode:normal;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         d="m 48.375784,31.805073 22.71791,11.759858 10.15624,53.181265 59.868376,-0.529166 13.88045,-51.802569 -70.541591,-0.84953"
-         id="path837" />
+         style="display:inline;mix-blend-mode:normal;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 48.375784,31.805073 c 0,0 17.619319,4.925004 22.71791,11.759858 10.79112,14.465905 10.15624,53.181265 10.15624,53.181265 L 141.11831,96.21703 154.99876,44.414461 84.457169,43.564931"
+         id="path837"
+         sodipodi:nodetypes="cscccc" />
       <path
-         style="display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M 90.637778,96.718158 83.120822,110.38231 H 137.10927"
          id="path839"
          sodipodi:nodetypes="ccc" />
       <ellipse
-         style="opacity:1;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path4639-5"
          cx="128.1192"
          cy="118.21908"
          rx="7.1139908"
          ry="6.6840234" />
       <ellipse
-         style="opacity:1;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path4639-5-5"
          cx="91.818756"
          cy="117.83083"
          rx="7.1139908"
          ry="6.6840234" />
     </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 57.478617,79.598569 H 123.91418"
+       id="path5355" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 59.674833,93.050401 H 117.87459"
+       id="path5357" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 62.694631,105.67865 H 114.03121"
+       id="path5359" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Taso 3"
-     transform="translate(-24.151975,-34.640608)" />
+     transform="translate(-23.692268,-33.752538)" />
 </svg>
