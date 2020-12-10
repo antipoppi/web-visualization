@@ -17,7 +17,7 @@ EDIT: Piti tehdä vielä koko homma uusiksi, koska unohdin initoida koko projekt
 
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
-| 08.12.2020 | 4 | 10.5h |
+| 08.12.2020 | 4h | 10.5h |
 
 Tänään meni niin myöhään kun pääsin aloittamaan, niin suoritin päivän mittaan ajatustyötä minkälaista layouttia lähden tekemään kunhan koneelle pääsen. Eipä tuossa ollut kuin naputteli menemään vain. Lisäsin alustavan layoutin, joka omasta mielestäni toimii tällaisessa verkkokauppa-tapauksessa. Header, navbar, main ja footer (joka on aina sivun pohjalla). Alustavaa värimaailmaakin mietin, tällä hetkellä se on tuo. Ehkä päädyn kuitenkin lopulta hempeämpiin väreihin, mutta toisaalta tämä luo hyvän kontrastin. Huomasin, että [bootstrapin mixinejä ei tarvitse kaikkia importata](https://getbootstrap.com/docs/4.5/getting-started/theming/#importing), mutta en alkanut ottamaan siitä enempää tälle illalle selvää. Katson sitä huomenna. Sillä ainakin saisi tuon css-tiedoston kokoa pienennettyä huomattavasti.
 
@@ -30,7 +30,14 @@ EDIT: luin vielä puoli tuntia bootstrapin dokumentaatiota. Huomasin, että nuo 
 
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
-| 09.12.2020 | --- | --- |
+| 09.12.2020 | 6½h | 17h |
+
+Tänäänkin meni myöhään ennenkuin pääsin aloittamaan. Tein svg-tiedostoja mm. ostoskärryn tyhjänä sekä täytenä ja nuottikuvan. Löysin [svg optimizer](https://github.com/svg/svgo) nimisen node.js paketin jonka asensin ja testasin. Hyvin ainakin pelkisti inkscapella tehdyt tiedostot pieniksi. 
+ Sain laitettua ostoskorin kuvan ostoskori-tekstin tilalle ja animoitua nuotit tervetuloa tekstin alle. Minulla oli suuria ongelmia kun yritin saada hover-toiminnon toimimaan ostoskorin päälle niin, että svg:n väri muuttuisi. Yritin hue-rotatella vaikka ja kuinka, mutta ilmeisesti se ei toimi jos ei ole mitään "täytettä" kuvassa. Ostoskori koostuu siis pelkistä stroke-vedoista. Muutin sitten niiden värin ihan testimielessä hover-toiminnolla... Se tuntui sentään toimivan. Nuottien animointi onnistui hyvin omasta mielestäni ja näyttääkiin sopivalta. Ehkä mietin vielä tuon karusellin kohtaloa, onko se liikaa etusivulla tuon nuotin lisäksi? Huomenna alan tekemään tuotteille omia sivuja sekä ostoskoria. Poika menee huomenna hoitoon, niin pääsen aloittamaan aamupäivällä.
+
+- [Kuva 1 - työpöytä](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/091201.png)
+- [Kuva 2 - mobiili](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/091202.png)
+- [Kuva 3 - svgo toiminnassa](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/091203.png)
 
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
