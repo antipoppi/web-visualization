@@ -7234,22 +7234,14 @@ main {
   background: #17a2b8;
   margin: auto; }
 
-@media (max-width: 991.98px) {
+@media (min-width: 576px) {
   .omaClass {
     display: none; }
   .omaClass2 {
-    display: flex; }
-  #carousel1 img {
-    src: "assets/img/pexel-synth-mobile.webp"; }
-  #carousel2 img {
-    src: "assets/img/pexels-crowd-mobile.webp"; } }
+    display: flex; } }
 
 @media (min-width: 768px) {
   .omaClass {
     display: flex; }
   .omaClass2 {
-    display: none; }
-  #carousel1 img {
-    src: "assets/img/pexels-crowd-1000x500.webp"; }
-  #carousel2 img {
-    src: "pexel-synth-1000x500.webp"; } }
+    display: none; } }

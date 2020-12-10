@@ -101,18 +101,12 @@ main {
 
 // Käyttää hyväksi bootstrapin sass mixiniä,
 // esim. alla oleva koskee näyttöjä xs-md välillä (mobiili/tabletti, alle 567px ja 768px välillä)
-@include media-breakpoint-between(xs, md) {  
+@include media-breakpoint-up(sm) {  
     .omaClass {
         display: none; // pitäis kadota näkyvistä, kun menee alle 768px
     }
     .omaClass2 {
         display: flex;
-    }
-    #carousel1 img {
-        src: "assets/img/pexel-synth-mobile.webp"
-    }
-    #carousel2 img {
-        src: "assets/img/pexels-crowd-mobile.webp"
     }
 }
 // kun taas tämä koskee pelkästään työpöytiä (min 768px - ja yli 1200px välillä)
@@ -123,10 +117,5 @@ main {
     .omaClass2 {
         display: none; // pitäis kadota näkyvistä, kun menee yli 768px
     }
-    #carousel1 img {
-        src: "assets/img/pexels-crowd-1000x500.webp"
-    }
-    #carousel2 img {
-        src: "pexel-synth-1000x500.webp"
-    }
+
 }
