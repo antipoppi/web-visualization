@@ -15,6 +15,10 @@ Halusin ehdottomasti kokeilla gulppia, kun en sitä kokeillut silloin tehtäviä
 
 EDIT: Piti tehdä vielä koko homma uusiksi, koska unohdin initoida koko projektin. :-D  Huomasin tämän, kun asentelin gulp-uglify ja gulp-concatia joilla sain javascriptit sekaisin... Parempi antaa toistaiseksi olla näin miten ne on, kerta ne on jo valmiiksi minimoitu ja niillä pitää olla tietty järjestys jossa ne ladataan. Nämä on näitä optimointihommia, niitä tarkemmin sitten loppuviikosta.
 
+---
+
+## 08.12.2020 kommenttia
+
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
 | 08.12.2020 | 4h | 10.5h |
@@ -28,6 +32,10 @@ Poika oli vielä tänään kuumeessa, niin huomenna pääsee taas aloittamaan va
 
 EDIT: luin vielä puoli tuntia bootstrapin dokumentaatiota. Huomasin, että nuo varjotkin saa luotua suoraan bootstrapilla...
 
+---
+
+## 09.12.2020 kommenttia
+
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
 | 09.12.2020 | 6½h | 17h |
@@ -39,13 +47,22 @@ Tänäänkin meni myöhään ennenkuin pääsin aloittamaan. Tein svg-tiedostoja
 - [Kuva 2 - mobiili](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/091202.png)
 - [Kuva 3 - svgo toiminnassa](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/091203.png)
 
+---
+
+## 10.12.2020 kommenttia
+
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
-| 10.12.2020 | 7.75h | 24.75h |
+| 10.12.2020 | 8.5h | 25.5h |
 
-- uusi navbar headeriin sisälle jossa haku (mahdollista lisätä jotain muutakin, jos tarvetta)
+Paljon tuli tänään tehtyä. Paljon ahaa-elämyksiä, mm. viimeisimpänä karuselliin lisäsin kuvia ja googlen [pagespeed insights](https://developers.google.com/speed/pagespeed/insights/) neuvoi muuttamaan jpg-kuvat [WebP](https://fi.wikipedia.org/wiki/WebP) kuviksi. Todella hyvin skaalaa noita 1000px kuvaa isommallakin resoluutiolla! Bootstrapin avulla onnistui muuttamaan suoraan html:ssä [elementtien näkyminen tietyillä näyttökokoilla](https://getbootstrap.com/docs/4.5/utilities/display/). Lisäsin uuden hakuboxin uuteen navbariin headerin alapuolelle, tämä uuteen navbariin, niin siihen voi lisätä lisää uusia nappeja jne. jos tarve tulee. Opettajalta tuli kommenttia, että semanttinen html on unohtunut. Korjailin niitä joka leiskaan. Tehokas päivä, paljon tuli uutta tehtyä.
+
+**päivän uutuudet**
+
+- headerin sisäll euusi navbar, jossa haku. (mahdollista lisätä jotain muutakin, jos tarvetta)
 - html:ää muokattu semanttiseksi  
 - otsikot navbariin päätetty (etusivu, syntikat, VST ja tietoa meistä)
+- karuselliin lisätty kuvia
 
 **uusia näkymiä:**
 
@@ -54,13 +71,25 @@ Tänäänkin meni myöhään ennenkuin pääsin aloittamaan. Tein svg-tiedostoja
 - hakutulos
 - syntikat
 
+---
+
+## 11.12.2020 kommenttia
+
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
 | 11.12.2020 | --- | --- |
 
+---
+
+## 12.12.2020 kommenttia
+
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
 | 12.12.2020 | --- | --- |
+
+---
+
+## 13.12.2020 kommenttia
 
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
