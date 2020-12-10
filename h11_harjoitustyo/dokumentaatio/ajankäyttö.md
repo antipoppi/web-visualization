@@ -41,7 +41,16 @@ Tänäänkin meni myöhään ennenkuin pääsin aloittamaan. Tein svg-tiedostoja
 
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
-| 10.12.2020 | --- | --- |
+| 10.12.2020 | 5h | 23h |
+
+- uusi navbar headeriin sisälle jossa haku (mahdollista lisätä jotain muutakin, jos tarvetta)
+- html:ää muokattu semanttiseksi  
+
+**uusia näkymiä:**
+
+- tietosuojalausunto ([Mallia otettu täältä](https://www.innowise.fi/fi/gdprn-mukainen-rekisteri-ja-tietosuojaselosteen-malli/))
+- tyhjä ostoskori
+- hakutulos
 
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
