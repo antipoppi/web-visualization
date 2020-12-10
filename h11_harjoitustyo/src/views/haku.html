@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Musiikkikauppa Nuotti</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <a id="top"></a>
+    <!-- header -->
+    <header>
+        <div class="jumbotron jumbotron-fluid bg-dark text-primary text-center mb-0">
+            <a href="index.html" class="text-decoration-none">
+                <h1>Musiikkikauppa Nuotti</h1>
+            </a>
+        </div>
+        <nav class="navbar navbar-light bg-dark">
+            <div class="container col-lg-8">
+                <form class="form-inline ml-auto" action="haku.html">
+                    <div class="input-group">
+                        <input class="form-control mr-sm-2 rounded" type="search" placeholder="Etsi jotain" aria-label="Search">
+                        <div class="input-group-prepend">
+                          <button class="input-group-text bg-dark text-primary rounded" type="submit">Etsi</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-light navbar-expand-sm bg-primary flex-row shadow-lg mb-3">
+        <div class="container col-lg-8">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+                <span class="sr-only">Toggle-button</span>
+            </button>
+            <div class="navbar-collapse collapse" id="collapsibleNavbar">
+                <!-- Left Side Of Navbar -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link rounded text-bold" href="../index.html">Etusivu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded" href="#">Soittimet 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded" href="#">Soittimet 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded" href="#">Soittimet 3</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Right Side Of Navbar -->
+            <a class="navbar-brand" href="#">
+                <div id="shopping_cart_container">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.758 97.024">
+                        <g fill="#1a1a1a" fill-opacity="0.01" stroke="#1a1a1a">
+                            <g transform="translate(-47.838 -29.879)" stroke-width="4">
+                                <path style="mix-blend-mode:normal" d="M48.376 31.805s17.62 4.925 22.718 11.76C81.884 58.03 81.25 96.746 81.25 96.746l59.868-.529 13.88-51.803-70.54-.85"/>
+                                <path d="M90.638 96.718l-7.517 13.664h53.988"/>
+                                <ellipse cx="128.119" cy="118.219" rx="7.114" ry="6.684"/>
+                                <ellipse cx="91.819" cy="117.831" rx="7.114" ry="6.684"/>
+                            </g>
+                            <path d="M33.404 27.054H99.84M35.601 40.506h58.2m-55.18 12.628h51.337" stroke-width="1.165"/>
+                        </g>
+                    </svg>
+                </div>
+                <span class="sr-only">Shopping cart</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- main -->
+    <main class="container-fluid flex-grow-1 my-3 col-md-8">   
+        <article class="card shadow-lg">
+            <header class="card-header bg-dark text-primary">
+                <h2 class="h4">Voi ei!</h2>
+            </header>
+            <div class="card-body">
+                <p>Hakusanallasi ei löytynyt yhtään tulosta!</p>
+            </div>
+        </article>
+    </main>
+    <aside class="mx-auto">
+        <a href="#top">Takaisin ylös ↑</a>
+    </aside>
+
+    <!-- footer -->
+    <footer class="navbar bg-secondary flex-column text-center mt-3">
+        <a href="views/tietosuojalauseke.html" class="muted-text">
+            <span class="text-center h6">Tietosuojalauseke</span>
+        </a>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then finally Bootstrap JS. -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
