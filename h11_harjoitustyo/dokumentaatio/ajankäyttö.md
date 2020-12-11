@@ -77,7 +77,17 @@ Paljon tuli tänään tehtyä. Paljon ahaa-elämyksiä, mm. viimeisimpänä karu
 
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
-| 11.12.2020 | --- | --- |
+| 11.12.2020 | 5½ | 31h |
+
+**päivän uutuudet**
+
+- footerin päivitys uusiksi
+- karuselli valmis
+
+**uusia näkymiä:**
+- toimitushdot [teksti kopioitu täältä](https://fi.nowsupport.vilkas.fi/sisältö/toimitusehtojen-malliteksti)
+- yritysesittely (tietoa meistä sivu)
+- onnistui sivu (etusivu onnistui-ilmoituksella)
 
 ---
 
