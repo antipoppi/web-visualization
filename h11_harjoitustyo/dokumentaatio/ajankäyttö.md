@@ -77,9 +77,11 @@ Paljon tuli tänään tehtyä. Paljon ahaa-elämyksiä, mm. viimeisimpänä karu
 
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
-| 11.12.2020 | 8½h | 34h |
+| 11.12.2020 | 9½h | 35h |
 
 Tänään otin ja päivitin footerin kokonaan uusiksi. Sisältää nyt linkit "tietoa meistä"-, toimitusehdot-, tietosuojalauseke-, yhteydenotto-sivuille. Lisäksi mahdollisuus tilata uutiskirje (joka ohjaa onnistui sivulle). Lisäksi päivitin karuselliin kuvat. Editoin vähän syntikkasivua (sisältää nyt uutuuden sekä tarjouksen). Yhteydenottolomake skaalautuu nätisti, ehkä vähän formin ulkonäköä voisi hioa. Toisaalta se näyttää omasta mielestäni ihan hyvältä näinkin. Huomenna ajattelin mockata ostoskorin, sekä sitä seuraavan tilausvahvistussivun. Todennäköisesti teen myös tuota syntikkasivua vastaavan VST-sivun. Pitää katsoa ajankäytön kannalta vielä, että teenkö yksittäiselle tuotteelle omaa sivua. Riippuu vähän kauanko menee aikaa, että olisiko se sitten sunnuntain homma. Pitää ehkä vielä miettiä tuota värimaailmaa ja ehkä fontteja. Mm. Yrityksen logo voisi ihan hyvin olla svg tai sitten sille jokin oma hieno fontti. Vielä on hommaa, mutta hieno tästä tulee :smile:
+
+EDIT: Testasin sivua saavutettavuus-sivustolla https://wave.webaim.org/ ja siellä sain ilmoituksia, että ei ole tarpeeksi kontrastia. Niin etsin sivun https://webaim.org/resources/contrastchecker/ jossa pystyi tarkistamaan ja säätämään värejä niin, että kontrastia löytyy. Katselin pikaisesti nykyistä värimaailmaa ja säädin mm. linkit tummiksi, sekä oranssin sävyä vaalensin huomattavasti. Nyt ei enää herjaa kontrastivirheistä, aiemmin niitä oli 7 ja nyt 0! Huomattava parannus saavutettavuudessa.
 
 **päivän uutuudet**
 
@@ -97,6 +99,7 @@ Tänään otin ja päivitin footerin kokonaan uusiksi. Sisältää nyt linkit "t
 - [Kuva 2. - Uusi footer](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/111202.png)
 - [Kuva 3. - Yhteydenottolomake (desktop)](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/111203.png)
 - [Kuva 4. - Yhteydenottolomake (mobile)](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/111204.png)
+- [Kuva 5. - Saavutettavuus (etusivu)](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/111205.png)
 
 ---
 
