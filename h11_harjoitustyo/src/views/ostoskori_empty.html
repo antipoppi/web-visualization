@@ -9,9 +9,8 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <a id="top"></a>
     <!-- header -->
-    <header>
+    <header id="top">
         <div class="jumbotron jumbotron-fluid bg-dark text-primary text-center mb-0">
             <a href="../index.html" class="text-decoration-none">
                 <h1>Musiikkikauppa Nuotti</h1>
@@ -21,7 +20,7 @@
             <div class="container col-lg-8">
                 <form class="form-inline ml-auto" action="haku.html">
                     <div class="input-group">
-                        <input class="form-control mr-sm-2 rounded" type="search" placeholder="Etsi jotain" aria-label="Search">
+                        <input class="form-control mr-sm-2 rounded" type="search" placeholder="Etsi jotain" aria-label="Search" required>
                         <div class="input-group-prepend">
                           <button class="input-group-text bg-dark text-primary rounded border-primary" type="submit">Etsi</button>
                         </div>
@@ -40,23 +39,20 @@
             </button>
             <div class="navbar-collapse collapse" id="collapsibleNavbar">
                 <!-- Left Side Of Navbar -->
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link rounded text-bold" href="../index.html">Etusivu</a>
-                    </li>
-                   <li class="nav-item">
-                        <a class="nav-link rounded" href="#">Syntikat</a>
+                        <a class="nav-link h5" href="../index.html">Etusivu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link rounded" href="#">VST</a>
+                        <a class="nav-link h5" href="syntikat.html">Syntikat</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tietoa meistä</a>
+                        <a class="nav-link h5" href="#">VST</a>
                     </li>
                 </ul>
             </div>
             <!-- Right Side Of Navbar -->
-            <a class="navbar-brand" href="#top">
+            <a class="navbar-brand" href="ostoskori_empty.html">
                 <div id="shopping_cart_container">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.758 97.024">
                         <g fill="#1a1a1a" fill-opacity="0.01" stroke="#1a1a1a">
@@ -91,10 +87,113 @@
     </aside>
 
     <!-- footer -->
-    <footer class="navbar bg-secondary flex-column text-center mt-3">
-        <a href="views/tietosuojalauseke.html" class="muted-text">
-            <span class="text-center h6">Tietosuojalauseke</span>
-        </a>
+    <!-- footer desktop -->
+    <footer class="navbar bg-secondary flex-column mt-3 d-none d-md-block">
+        <main class="container d-flex justify-content-around">
+            <article class="col-sm-4 align-self-start mt-3">
+                <header>
+                    <p class="h6">Musiikkikauppa Nuotti</p>
+                </header>
+                <section>
+                    <a href="yritys.html">
+                        <span class="mb-0">Tietoa meistä</span>
+                    </a> 
+                </section> 
+            </article>
+            <article class="col-sm-4 align-self-start mt-3">
+                <header>
+                    <p class="h6">Asiakaspalvelu</p>
+                </header>
+                <section>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="yhteydenotto.html">
+                                <span class="mb-0">Ota yhteyttä</span>
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="toimitusehdot.html">
+                                <span class="mb-0">Toimitusehdot</span>
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="tietosuojalauseke.html">
+                                <span class="text-center mb-0">Tietosuojalauseke</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+            <article class="col-sm-4 align-self-start mt-3">
+                <header>
+                    <p class="h6">Tilaa uutiskirje</p>
+                </header>
+                <section>
+                    <form class="form" action="onnistui.html">
+                        <div class="input-group">
+                            <input class="form-control mr-sm-2 rounded" type="email" placeholder="sähköpostiosoitteesi" aria-label="email" required>
+                            <div class="input-group-prepend">
+                              <button class="input-group-text bg-dark text-primary rounded border-primary" type="submit">Liity</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </article>
+        </main>
+    </footer>
+    <!-- footer mobile -->
+    <footer class="navbar bg-secondary flex-column mt-3 d-md-none">
+        <main class="container d-flex flex-wrap mx-auto">
+            <article class="col-sm-4 mt-3">
+                <header>
+                    <p class="h6">Musiikkikauppa Nuotti</p>
+                </header>
+                <section>
+                    <a href="yritys.html">
+                        <span class="mb-0">Tietoa meistä</span>
+                    </a> 
+                </section> 
+            </article>
+            <article class="col-sm-4 align-self-start mt-3">
+                <header>
+                    <p class="h6">Asiakaspalvelu</p>
+                </header>
+                <section>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="yhteydenotto.html">
+                                <span class="mb-0">Ota yhteyttä</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="toimitusehdot.html">
+                                <span class="mb-0">Toimitusehdot</span>
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="tietosuojalauseke.html">
+                                <span class="text-center mb-0">Tietosuojalauseke</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+            <article class="col-sm-4 align-self-start mt-3">
+                <header>
+                    <p class="h6">Tilaa uutiskirje</p>
+                </header>
+                <section>
+                    <form class="form-inline" action="onnistui.html">
+                        <div class="input-group">
+                            <input class="form-control mr-sm-2 rounded" type="email" placeholder="sähköpostiosoitteesi" aria-label="email" required>
+                            <div class="input-group-prepend">
+                              <button class="input-group-text bg-dark text-primary rounded border-primary" type="submit">Liity</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </article>
+        </main>
     </footer>
 
     <!-- jQuery first, then Popper.js, then finally Bootstrap JS. -->
