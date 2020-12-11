@@ -50,6 +50,10 @@ body {
     animation-play-state: running;
 }
 
+a {
+    color: #343a40;
+}
+
 @keyframes nuottiAnimate {
     0% {
         width: 100px;
