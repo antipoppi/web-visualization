@@ -42,8 +42,6 @@ body {
 
     animation-name: nuottiAnimate;
     animation-duration: 5s;
-    //animation-timing-function: ease-in-out;
-    //animation-timing-function: cubic-bezier(0.45, 0.25, 0.60, 0.95);
     animation-timing-function: cubic-bezier(.45,.25,.6,.87);
     animation-delay: 0s;
     animation-iteration-count: infinite;
@@ -74,7 +72,6 @@ body {
         width: 100px;
         filter: drop-shadow(30px 10px 4px #808080);
     }
-
 }
 
 main {
