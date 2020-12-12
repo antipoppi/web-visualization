@@ -79,23 +79,21 @@
             </header>
             <section class="card-body">
                 <p>Jäikö joku mietityttämään? Olisiko jotain kysyttävää? Onko palautetta? Täytä lomake ja otamme tarvittaessa yhteyttä!</p>
-
-                <!-- kysymys/palaute-->
-                    <!-- nimesi -->
-                    <!-- sähköposti -->
-                    <!-- viesti -->
                     <form class="needs-validation" action="onnistui.html">
-                        <div class="form-check mb-1">
-                            <input class="form-check-input" type="radio" name="radioForm" id="radioForm1" checked>
-                            <label class="form-check-label" for="flexRadioDefault1">
-                                Kysymys
-                            </label>
-                        </div>
-                        <div class="form-check mb-3">
-                            <input class="form-check-input" type="radio" name="radioForm" id="radioForm2">
-                            <label class="form-check-label" for="flexRadioDefault2">
-                                Palaute
-                            </label>
+                        <div class="form-group">
+                            <label>Valitse mitä asiasi koskee:</label>
+                            <div class="form-check mb-1">
+                                <input class="form-check-input" type="radio" name="radioForm" id="radioForm1" checked>
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Kysymys
+                                </label>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="radio" name="radioForm" id="radioForm2">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Palaute
+                                </label>
+                            </div>
                         </div>
                         <div class="form-row">
                           <div class="form-group col-md-6">
@@ -113,7 +111,7 @@
                         </div>
                         <div class="form-group">
                             <label for="inputPhone">Puhelinnumero</label>
-                            <input type="tel" class="form-control" id="inputEmail" placeholder="+358401234567">
+                            <input type="tel" class="form-control" id="inputPhone" placeholder="+358401234567">
                           </div>
                         <div class="form-group">
                             <label for="inputMessage">Viestisi meille</label>
@@ -130,7 +128,7 @@
                               </label>
                             </div>
                           </div>
-                        <button type="submit" class="btn btn-primary">Lähetä</button>
+                        <button type="submit" class="btn btn-primary btn-lg d-flex ml-auto">Lähetä</button>
                       </form>
             </div>
         </article>
