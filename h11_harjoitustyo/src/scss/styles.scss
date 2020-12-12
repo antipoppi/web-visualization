@@ -29,9 +29,12 @@ body {
     transition: filter 500ms ease;
 }
 
+#shopping_cart_container svg g {
+    stroke: $shoppingCart;
+}
+
 #shopping_cart_container:hover svg g {
-    filter: blur(1px);
-    stroke: white;
+    stroke: black;
 }
 
 #nuottiContainer {
