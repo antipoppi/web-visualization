@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Musiikkikauppa Nuotti</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <!-- header -->
+    <header id="top">
+        <div class="jumbotron jumbotron-fluid bg-dark text-primary text-center mb-0">
+            <a href="../index.html" class="text-decoration-none">
+                <h1>Musiikkikauppa Nuotti</h1>
+            </a>
+        </div>
+        <nav class="navbar navbar-light bg-dark">
+            <div class="container col-lg-8">
+                <form class="form-inline ml-auto" action="haku.html">
+                    <div class="input-group">
+                        <input class="form-control mr-sm-2 rounded" type="search" placeholder="Etsi jotain" aria-label="Search" required>
+                        <div class="input-group-prepend">
+                          <button class="input-group-text bg-dark text-primary rounded border-primary" type="submit">Etsi</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-light navbar-expand-sm bg-primary flex-row shadow-lg mb-3">
+        <div class="container col-lg-8">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+                <span class="sr-only">Toggle-button</span>
+            </button>
+            <div class="navbar-collapse collapse" id="collapsibleNavbar">
+                <!-- Left Side Of Navbar -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link h5" href="../index.html">Etusivu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h5" href="syntikat.html">Syntikat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h5" href="#">VST</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Right Side Of Navbar -->
+            <a class="navbar-brand" href="ostoskori_empty.html">
+                <div id="shopping_cart_container">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.758 97.024">
+                        <g fill="#1a1a1a" fill-opacity="0.01" stroke="#1a1a1a">
+                            <g transform="translate(-47.838 -29.879)" stroke-width="4">
+                                <path style="mix-blend-mode:normal" d="M48.376 31.805s17.62 4.925 22.718 11.76C81.884 58.03 81.25 96.746 81.25 96.746l59.868-.529 13.88-51.803-70.54-.85"/>
+                                <path d="M90.638 96.718l-7.517 13.664h53.988"/>
+                                <ellipse cx="128.119" cy="118.219" rx="7.114" ry="6.684"/>
+                                <ellipse cx="91.819" cy="117.831" rx="7.114" ry="6.684"/>
+                            </g>
+                            <path d="M33.404 27.054H99.84M35.601 40.506h58.2m-55.18 12.628h51.337" stroke-width="1.165"/>
+                        </g>
+                    </svg>
+                </div>
+                <span class="sr-only">Shopping cart</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- main -->
+    <main class="container-fluid flex-grow-1 my-3 col-md-8">   
+        <article class="card shadow-lg">
+            <header class="card-header bg-dark text-primary mb-3">
+                <h2 class="h4">Tilausvahvistus</h2>
+            </header>
+            <p class="card-header col-xl-6 bg-warning my-3 mx-auto rounded"><strong>Tarkista, että seuraavat tiedot ovat oikein!</strong></p>
+            <section class="card col-xl-6 mx-auto border-dark">
+                
+                <header class="card-header h6 border-dark mt-3">
+                    Tilaustiedot
+                </header>
+                <div class="card-body">
+                    <div class="card-body">
+                        <p class="card-text" id="customerFullname">Matti Meikäläinen</span></p>
+                        <p class="card-text" id="customerAddress">Osoitetie 1 AS 2, 40520 Jyväskylä, Suomi</p>
+                        <p class="card-text">Puh: <span id="customerPhone">+358401234567</span></p>
+                        <p class="card-text" id="customerEmail">matti.meikalainen@email.fi</p>
+                    </div>
+                </div>
+                <header class="card-header h6 border-dark">
+                    Tuotteet
+                </header>
+                <div class="card-body">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xs-6 mr-3">
+                                <p class="card-text" id="products1"><span id="productCount">1</span> x <span id="productName">Syntikka</span></p></p>
+                            </div>
+                            <div class="col-xs-6">
+                                <p class="card-text" id="products3"><span id="productPrice">1869</span> €</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <header class="card-header h6 border-dark">
+                    Toimitus
+                </header>
+                <div class="card-body">
+                    <div class="card-body">
+                        <p class="card-text" id="customerDelivery">Matkahuolto bussipaketti</p>
+                        <p class="card-text">Hinta: <span id="customerDeliveryPrice">0</span> €</p>
+                    </div>
+                </div>
+                <header class="card-header h5 bg-success mb-3 rounded border-dark">
+                    Yhteensä: <span id="orderSum">1869</span> €
+                </header>
+            </section>
+            <section class="card-body rounded col-md-6 mx-auto mb-3">
+                <p class="card-text"><strong>Huom: </strong><span class="font-italic">saat vahvistuksen tilauksesta sähköpostiisi</span></p>
+                <div class="form-group d-flex justify-content-end">
+                    <button type="button" class="btn btn-danger mr-3" onclick="goBack()"><span class="h5">Palaa takaisin</span></button>
+                    <a href="onnistui.html">
+                        <button type="submit" class="btn btn-success"><span class="h5">Vahvista tilaus</span></button>
+                    </a>
+                </div>
+            </section>
+        </article>
+    </main>
+    <aside class="mx-auto mb-3">
+        <a href="#top">Takaisin ylös ↑</a>
+    </aside>
+
+    <!-- footer -->
+    <!-- footer desktop -->
+    <footer class="navbar bg-secondary flex-column mt-3 d-none d-md-block">
+        <main class="container d-flex justify-content-around">
+            <article class="col-sm-4 align-self-start mt-3">
+                <header>
+                    <p class="h6">Musiikkikauppa Nuotti</p>
+                </header>
+                <section>
+                    <a href="yritys.html">
+                        <span class="mb-0">Tietoa meistä</span>
+                    </a> 
+                </section> 
+            </article>
+            <article class="col-sm-4 align-self-start mt-3">
+                <header>
+                    <p class="h6">Asiakaspalvelu</p>
+                </header>
+                <section>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="yhteydenotto.html">
+                                <span class="mb-0">Ota yhteyttä</span>
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="toimitusehdot.html">
+                                <span class="mb-0">Toimitusehdot</span>
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="tietosuojalauseke.html">
+                                <span class="text-center mb-0">Tietosuojalauseke</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+            <article class="col-sm-4 align-self-start mt-3">
+                <header>
+                    <p class="h6">Tilaa uutiskirje</p>
+                </header>
+                <section>
+                    <form class="form" action="onnistui.html">
+                        <div class="input-group">
+                            <input class="form-control mr-sm-2 rounded" type="email" placeholder="sähköpostiosoitteesi" aria-label="email" required>
+                            <div class="input-group-prepend">
+                              <button class="input-group-text bg-dark text-primary rounded border-primary" type="submit">Liity</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </article>
+        </main>
+    </footer>
+    <!-- footer mobile -->
+    <footer class="navbar bg-secondary flex-column mt-3 d-md-none">
+        <main class="container d-flex flex-wrap mx-auto">
+            <article class="col-sm-4 mt-3">
+                <header>
+                    <p class="h6">Musiikkikauppa Nuotti</p>
+                </header>
+                <section>
+                    <a href="yritys.html">
+                        <span class="mb-0">Tietoa meistä</span>
+                    </a> 
+                </section> 
+            </article>
+            <article class="col-sm-4 align-self-start mt-3">
+                <header>
+                    <p class="h6">Asiakaspalvelu</p>
+                </header>
+                <section>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="yhteydenotto.html">
+                                <span class="mb-0">Ota yhteyttä</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="toimitusehdot.html">
+                                <span class="mb-0">Toimitusehdot</span>
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="tietosuojalauseke.html">
+                                <span class="text-center mb-0">Tietosuojalauseke</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+            <article class="col-sm-4 align-self-start mt-3">
+                <header>
+                    <p class="h6">Tilaa uutiskirje</p>
+                </header>
+                <section>
+                    <form class="form-inline" action="onnistui.html">
+                        <div class="input-group">
+                            <input class="form-control mr-sm-2 rounded" type="email" placeholder="sähköpostiosoitteesi" aria-label="email" required>
+                            <div class="input-group-prepend">
+                              <button class="input-group-text bg-dark text-primary rounded border-primary" type="submit">Liity</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </article>
+        </main>
+    </footer>
+
+    <!-- scripts -->
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+    <!-- jQuery first, then Popper.js, then finally Bootstrap JS. -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
