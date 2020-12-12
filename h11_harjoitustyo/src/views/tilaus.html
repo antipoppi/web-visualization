@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Musiikkikauppa Nuotti</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <!-- header -->
+    <header id="top">
+        <div class="jumbotron jumbotron-fluid bg-dark text-primary text-center mb-0">
+            <a href="../index.html" class="text-decoration-none">
+                <h1>Musiikkikauppa Nuotti</h1>
+            </a>
+        </div>
+        <nav class="navbar navbar-light bg-dark">
+            <div class="container col-lg-8">
+                <form class="form-inline ml-auto" action="haku.html">
+                    <div class="input-group">
+                        <input class="form-control mr-sm-2 rounded" type="search" placeholder="Etsi jotain" aria-label="Search" required>
+                        <div class="input-group-prepend">
+                          <button class="input-group-text bg-dark text-primary rounded border-primary" type="submit">Etsi</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-light navbar-expand-sm bg-primary flex-row shadow-lg mb-3">
+        <div class="container col-lg-8">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+                <span class="sr-only">Toggle-button</span>
+            </button>
+            <div class="navbar-collapse collapse" id="collapsibleNavbar">
+                <!-- Left Side Of Navbar -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link h5" href="../index.html">Etusivu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h5" href="syntikat.html">Syntikat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h5" href="#">VST</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Right Side Of Navbar -->
+            <a class="navbar-brand" href="ostoskori_empty.html">
+                <div id="shopping_cart_container">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.758 97.024">
+                        <g fill="#1a1a1a" fill-opacity="0.01" stroke="#1a1a1a">
+                            <g transform="translate(-47.838 -29.879)" stroke-width="4">
+                                <path style="mix-blend-mode:normal" d="M48.376 31.805s17.62 4.925 22.718 11.76C81.884 58.03 81.25 96.746 81.25 96.746l59.868-.529 13.88-51.803-70.54-.85"/>
+                                <path d="M90.638 96.718l-7.517 13.664h53.988"/>
+                                <ellipse cx="128.119" cy="118.219" rx="7.114" ry="6.684"/>
+                                <ellipse cx="91.819" cy="117.831" rx="7.114" ry="6.684"/>
+                            </g>
+                            <path d="M33.404 27.054H99.84M35.601 40.506h58.2m-55.18 12.628h51.337" stroke-width="1.165"/>
+                        </g>
+                    </svg>
+                </div>
+                <span class="sr-only">Shopping cart</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- main -->
+    <main class="container-fluid flex-grow-1 my-3 col-md-8">   
+        <article class="card shadow-lg">
+            <header class="card-header bg-dark text-primary">
+                <h2 class="h4">Tilaus</h2>
+            </header>
+            <main class="card-body col-md-10 mx-auto">
+                <form class="needs-validation" action="tilausvahvistus.html">
+                    <h3 class="h5">Toimitustiedot</h3>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputName"><span class="h6">Etunimi</span></label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Etunimi" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputLastname"><span class="h6">Sukunimi</span></label>
+                            <input type="text" class="form-control" id="inputLastname" placeholder="Sukunimi" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label for="inputAddress"><span class="h6">Osoite</span></label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Osoitteesi" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <label for="inputZip"><span class="h6">Postinumero</span></label>
+                            <input type="number" class="form-control" id="inputZip" placeholder="00000" required>
+                        </div>
+                        <div class="form-group col-md-5">
+                            <label for="inputCity"><span class="h6">Kaupunki</span></label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="-" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputCountry"><span class="h6">Maa</span></label>
+                            <input type="text" class="form-control" id="inputCountry" placeholder="Suomi" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputPhone"><span class="h6">Puhelinnumero</span></label>
+                            <input type="tel" class="form-control" id="inputPhone" placeholder="+358401234567">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail"><span class="h6">Sähköpostiosoite</span></label>
+                            <input type="text" class="form-control" id="inputEmail" placeholder="esim@esim.fi" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMessage"><span class="h6">Erikoistoiveet</span></label>
+                        <textarea class="form-control" id="inputMessage" placeholder="-"></textarea>
+                    </div>
+                    <fieldset class="form-group">
+                        <div class="row">
+                            <legend class="col-form-label col-xl-2 pt-0"><span class="h6">Toimitustapa</span></legend>
+                            <div class="col-xl-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="gridRadios1">
+                                        Nouto myymälästä (0€)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                    <label class="form-check-label" for="gridRadios2">
+                                        Postilähetys (0€)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                                    <label class="form-check-label" for="gridRadios3">
+                                        Matkahuolto bussipaketti (0€)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option4">
+                                    <label class="form-check-label" for="gridRadios4">
+                                        Matkahuolto kotijakelu (0€)
+                                    </label>
+                                </div>
+                          </div>
+                        </div>
+                      </fieldset>
+                    <div class="form-group d-flex justify-content-end">
+                        <a href="ostoskori_full.html">
+                            <button type="button" class="btn btn-danger mr-3"><span class="h5">Peruuta</span></button>
+                        </a>
+                        <button type="submit" class="btn btn-success"><span class="h5">Jatka tilausta</span></button>
+                    </div>
+                </form>
+            </main>
+        </article>
+    </main>
+    <aside class="mx-auto mb-3">
+        <a href="#top">Takaisin ylös ↑</a>
+    </aside>
+
+    <!-- footer -->
+    <!-- footer desktop -->
+    <footer class="navbar bg-secondary flex-column mt-3 d-none d-md-block">
+        <main class="container d-flex justify-content-around">
+            <article class="col-sm-4 align-self-start mt-3">
+                <header>
+                    <p class="h6">Musiikkikauppa Nuotti</p>
+                </header>
+                <section>
+                    <a href="yritys.html">
+                        <span class="mb-0">Tietoa meistä</span>
+                    </a> 
+                </section> 
+            </article>
+            <article class="col-sm-4 align-self-start mt-3">
+                <header>
+                    <p class="h6">Asiakaspalvelu</p>
+                </header>
+                <section>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#top">
+                                <span class="mb-0">Ota yhteyttä</span>
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="toimitusehdot.html">
+                                <span class="mb-0">Toimitusehdot</span>
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="tietosuojalauseke.html">
+                                <span class="text-center mb-0">Tietosuojalauseke</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+            <article class="col-sm-4 align-self-start mt-3">
+                <header>
+                    <p class="h6">Tilaa uutiskirje</p>
+                </header>
+                <section>
+                    <form class="form" action="onnistui.html">
+                        <div class="input-group">
+                            <input class="form-control mr-sm-2 rounded" type="email" placeholder="sähköpostiosoitteesi" aria-label="email" required>
+                            <div class="input-group-prepend">
+                              <button class="input-group-text bg-dark text-primary rounded border-primary" type="submit">Liity</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </article>
+        </main>
+    </footer>
+    <!-- footer mobile -->
+    <footer class="navbar bg-secondary flex-column mt-3 d-md-none">
+        <main class="container d-flex flex-wrap mx-auto">
+            <article class="col-sm-4 mt-3">
+                <header>
+                    <p class="h6">Musiikkikauppa Nuotti</p>
+                </header>
+                <section>
+                    <a href="yritys.html">
+                        <span class="mb-0">Tietoa meistä</span>
+                    </a> 
+                </section> 
+            </article>
+            <article class="col-sm-4 align-self-start mt-3">
+                <header>
+                    <p class="h6">Asiakaspalvelu</p>
+                </header>
+                <section>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#top">
+                                <span class="mb-0">Ota yhteyttä</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="toimitusehdot.html">
+                                <span class="mb-0">Toimitusehdot</span>
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="tietosuojalauseke.html">
+                                <span class="text-center mb-0">Tietosuojalauseke</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+            <article class="col-sm-4 align-self-start mt-3">
+                <header>
+                    <p class="h6">Tilaa uutiskirje</p>
+                </header>
+                <section>
+                    <form class="form-inline" action="onnistui.html">
+                        <div class="input-group">
+                            <input class="form-control mr-sm-2 rounded" type="email" placeholder="sähköpostiosoitteesi" aria-label="email" required>
+                            <div class="input-group-prepend">
+                              <button class="input-group-text bg-dark text-primary rounded border-primary" type="submit">Liity</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </article>
+        </main>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then finally Bootstrap JS. -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
