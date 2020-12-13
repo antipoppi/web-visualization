@@ -141,6 +141,7 @@ Tänään oli viimeinen päivä tehdä tätä, keskityin korjaamaan saavutettavu
 **päivän uutuudet**
 - minimoitu css
 - "Logossa" custom fontti (google-fontti)
+- loppuraportti
 
 **uusia näkymiä:**
 
