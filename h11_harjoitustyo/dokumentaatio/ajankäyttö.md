@@ -107,7 +107,26 @@ EDIT: Testasin sivua saavutettavuus-sivustolla https://wave.webaim.org/ ja siell
 
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
-| 12.12.2020 | --- | --- |
+| 12.12.2020 | 5h | 40h |
+
+Tämä päivä meni suurimmaksi osaksi lomakkeita tehden. Tein täydelle ostoskorille sivun jossa navbarissa näkyy ostoskori jossa "laatikoita". Ostoskorin pystyy nollaamaan tai jatkamaan tilausta. Tilaus-sivulla täytetään omat tiedot josta pystyy palaamaan takaisin ostoskoriin, tai jos form on täytetty, jatkamaan tilausta tilausvahvistukseen. Siellä taas tein yksinkertaisen javascriptin jolla pystyy palaamaan edelliselle sivulle painamalla takaisin nappulaa sekä viimeistele tilaus nappi jolla tuote tilataan (joka ohjaa kiitos-sivulle). Isointa ongelmaa oli tänään saada lomakkeet skaalautumaan nätisti eri resoluutioilla. Omasta mielestäni se onnistui ihan hyvin. Tehokas päivä vaikka en niin paljoa pystynytkään tänään käyttämään aikaa mitä ajattelin. Huomenna toinen tuotesivu, visuaalinen viimeistely ja loppuraportti. Jos on aikaa, teen yksittäisen tuotteen näkymän johon pääsee tuotteen nimeä klikkaamalla.
+
+**päivän uutuudet**
+
+- tilauksen pystyy nyt tekemään loppuun asti
+- parannettu taas kontrastia saavutettavuuden takia
+
+**uusia näkymiä:**
+
+- ostoskori_full.html
+- tilaus.html
+- tilausvahvistus.html
+
+**kuvakaappauksia:**
+
+- [Kuva 1. Ostoskori täynnä](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/121201.png)
+- [Kuva 2. Tilaus](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/121202.png)
+- [Kuva 3. Tilauksen vahvistus](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/121203.png)
 
 ---
 
