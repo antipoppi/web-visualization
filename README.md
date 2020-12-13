@@ -61,4 +61,4 @@ Mutta mutta, kokonaisuudessa olen tyytyväinen optimointiin ja saavutettavuuden 
 
 ### Arvosana
 
-Ottaen huomioon työmäärän, mitä olen projektiin käyttänyt antaisin itselleni **arvosanan 5**. Sivusto sisältää paljon sisältöä, käyttöliittymää on mietitty, sisältää animaatiota sekä edistyneitä teknologioita on käytetty alusta asti. CSS-esiprosessoria on käytetty css-tiedoston luomiseen ja käytetyt muuttujat ovat omissa .scss-tiedostoissaan. Lisäksi otin huomioon tuon saavutettavuuden ja mikä tärkeintä, opin uutta.
+Ottaen huomioon työmäärän, mitä olen projektiin käyttänyt antaisin itselleni **arvosanan 5**. Sivusto sisältää paljon sisältöä, käyttöliittymää on mietitty, sivusto näyttää ainakin tekijänsä mielestä tyylikkäältä, sisältää animaatiota sekä edistyneitä teknologioita on käytetty alusta asti. CSS-esiprosessoria on käytetty css-tiedoston luomiseen ja käytetyt muuttujat ovat omissa .scss-tiedostoissaan. Lisäksi otin huomioon tuon saavutettavuuden ja mikä tärkeintä, opin uutta.
