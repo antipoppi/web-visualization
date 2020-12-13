@@ -80,21 +80,21 @@
             <section class="card-body">
                 <p>Jäikö joku mietityttämään? Olisiko jotain kysyttävää? Onko palautetta? Täytä lomake ja otamme tarvittaessa yhteyttä!</p>
                     <form class="needs-validation" action="onnistui.html">
-                        <div class="form-group">
-                            <label>Valitse mitä asiasi koskee:</label>
+                        <fieldset class="form-group">
+                            <legend class="form-check-label mb-2 h6" for="radioForm">Valitse mitä asiasi koskee:</legend>
                             <div class="form-check mb-1">
                                 <input class="form-check-input" type="radio" name="radioForm" id="radioForm1" checked>
-                                <label class="form-check-label" for="flexRadioDefault1">
+                                <label class="form-check-label" for="radioForm1">
                                     Kysymys
                                 </label>
                             </div>
                             <div class="form-check mb-3">
                                 <input class="form-check-input" type="radio" name="radioForm" id="radioForm2">
-                                <label class="form-check-label" for="flexRadioDefault2">
+                                <label class="form-check-label" for="radioForm2">
                                     Palaute
                                 </label>
                             </div>
-                        </div>
+                        </fieldset>
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <label for="inputName">Etunimi</label>
