@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Amiko-Regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/Amiko-SemiBold-webfont.woff') format('woff');
+}
+
+@mixin logoStyle {
+    font-weight: 400;
+    font-family: 'Amiko', Roboto, "Helvetica Neue", Arial  !important;
+}

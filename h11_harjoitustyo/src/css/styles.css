@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Amiko-Regular-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Amiko-SemiBold-webfont.woff") format("woff"); }
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -7160,21 +7172,10 @@ body {
   background: #D9D9D9;
   height: 100%; }
 
-/*header {
-    box-shadow: 0px 10px 15px #27272780;
-    -webkit-box-shadow: 0px 10px 15px #27272780;
-    -moz-box-shadow: 0px 10px 15px #27272780;
-    position: relative;
-    z-index: 999999;
-}
+.logoHeader {
+  font-weight: 400;
+  font-family: 'Amiko', Roboto, "Helvetica Neue", Arial  !important; }
 
-#carouselExampleIndicators {
-    box-shadow: 0px 10px 25px #27272780;
-    -webkit-box-shadow: 0px 10px 25px #27272780;
-    -moz-box-shadow: 0px 10px 25px #27272780;
-    position: relative;
-    z-index: 999999;
-}*/
 #shopping_cart_container {
   width: 50px;
   display: block;
