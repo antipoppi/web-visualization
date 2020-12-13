@@ -2,14 +2,14 @@
     font-family: 'Amiko';
     font-style: normal;
     font-weight: 400;
-    src: local('Amiko'), url('../fonts/Amiko-Regular-webfont.woff') format('woff');
+    src: local('Helvetica'), url('../fonts/Amiko-Regular-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Amiko';
     font-style: normal;
     font-weight: 600;
-    src: local('Amiko'), url('../fonts/Amiko-Regular-webfont.woff') format('woff');
+    src: local('Helvetica'), url('../fonts/Amiko-Regular-webfont.woff') format('woff');
 }
 
 @mixin logoStyle {
