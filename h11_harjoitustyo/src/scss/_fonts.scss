@@ -2,14 +2,16 @@
     font-family: 'Amiko';
     font-style: normal;
     font-weight: 400;
-    src: local('Helvetica'), url('../fonts/Amiko-Regular-webfont.woff') format('woff');
+    font-display: swap;
+    src: local('Helvetica'), url(https://fonts.gstatic.com/s/amiko/v5/WwkQxPq1DFK04uqieV8.woff2) format('woff2');
 }
 
 @font-face {
     font-family: 'Amiko';
     font-style: normal;
     font-weight: 600;
-    src: local('Helvetica'), url('../fonts/Amiko-Regular-webfont.woff') format('woff');
+    font-display: swap;
+    src: local('Helvetica'), url(https://fonts.gstatic.com/s/amiko/v5/WwkdxPq1DFK04uJ9XUrDEIU.woff2) format('woff2');
 }
 
 @mixin logoStyle {
