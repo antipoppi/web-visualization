@@ -1,7 +1,9 @@
-# ttms0400-web-visualisointi
+# Harjoitustyö (wv-11) raportti
 
-## Harjoitustyö (wv-11) raportti
+- **Tekijä:** Tatu Alatalo (n4927)  
+- **päivämäärä:** 13.12.2020
 
+**linkit:**
 - [Lähdekoodi](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/tree/pages/h11_harjoitustyo)
 - [Linkki sivulle](https://n4927.pages.labranet.jamk.fi/ttms0400-web-visualisointi/h11_harjoitustyo/src/)
 - [Ajankäyttö-dokumentti](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/ajankäyttö.md)
