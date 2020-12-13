@@ -12,7 +12,7 @@
     <!-- header -->
     <header id="top">
         <div class="jumbotron jumbotron-fluid bg-dark text-primary text-center mb-0">
-            <a href="../index.html" class="text-decoration-none">
+            <a href="../index.html" class="text-decoration-none text-primary">
                 <h1>Musiikkikauppa Nuotti</h1>
             </a>
         </div>
@@ -52,7 +52,7 @@
                 </ul>
             </div>
             <!-- Right Side Of Navbar -->
-            <a class="navbar-brand" href="ostoskori_empty.html">
+            <a class="navbar-brand" href="ostoskori_full.html">
                 <div id="shopping_cart_container">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.542 115.991">
                         <g stroke="#1a1a1a" fill="none">
@@ -80,6 +80,9 @@
                 <h2 class="h4">Tilaus</h2>
             </header>
             <main class="card-body col-md-10 mx-auto">
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+                </div>
                 <form class="needs-validation" action="tilausvahvistus.html">
                     <h3 class="h5">Toimitustiedot</h3>
                     <div class="form-row">
@@ -101,15 +104,15 @@
                     <div class="form-row">
                         <div class="form-group col-md-3">
                             <label for="inputZip"><span class="h6">Postinumero</span></label>
-                            <input type="number" class="form-control" id="inputZip" placeholder="00000" required>
+                            <input type="number" class="form-control" id="inputZip" placeholder="Postinumero" min="00001" max="99999" required>
                         </div>
                         <div class="form-group col-md-5">
                             <label for="inputCity"><span class="h6">Kaupunki</span></label>
-                            <input type="text" class="form-control" id="inputCity" placeholder="-" required>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Kaupunki" required>
                         </div>
                         <div class="form-group col-md-4">
                             <label for="inputCountry"><span class="h6">Maa</span></label>
-                            <input type="text" class="form-control" id="inputCountry" placeholder="Suomi" required>
+                            <input type="text" class="form-control" id="inputCountry" placeholder="Maa" required>
                         </div>
                     </div>
                     <div class="form-row">
@@ -192,7 +195,7 @@
                 <section>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#top">
+                            <a href="yhteydenotto.html">
                                 <span class="mb-0">Ota yhteyttä</span>
                             </a> 
                         </li>
@@ -246,7 +249,7 @@
                 <section>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#top">
+                            <a href="yhteydenotto.html">
                                 <span class="mb-0">Ota yhteyttä</span>
                             </a>
                         </li>
