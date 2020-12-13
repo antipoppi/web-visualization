@@ -12,7 +12,7 @@
     <!-- header -->
     <header id="top">
         <div class="jumbotron jumbotron-fluid bg-dark text-primary text-center mb-0">
-            <a href="#top" class="text-decoration-none text-primary">
+            <a href="../index.html" class="text-decoration-none text-primary">
                 <h1>Musiikkikauppa Nuotti</h1>
             </a>
         </div>
@@ -47,7 +47,7 @@
                         <a class="nav-link h5" href="syntikat.html">Syntikat</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link h5" href="vst.html">VST</a>
+                        <a class="nav-link h5" href="#top">VST</a>
                     </li>
                 </ul>
             </div>
@@ -72,69 +72,105 @@
     </nav>
 
     <!-- main -->
-    <main class="container-fluid flex-grow-1 my-3 col-md-8">
-        <section>
-            <div class="alert alert-success h5 text-center" role="alert">
-                Kiitos!
+    <main class="container-fluid flex-grow-1 my-3 col-md-8">   
+        <article class="card shadow-lg">
+            <header class="card-header bg-dark text-primary">
+                <h2 class="h4">Syntikat</h2>
+            </header>
+            <div class="card-body">
+                <p class="card-text">Täältä löytyvät <strong>markkinoiden monipuolisimmat</strong> syntikat virtuaalisina soittimina, jotka ovat yhteensopivia minkä <abbr title="Digital Audio Workstation" class="initialism">DAW</abbr>:n kanssa tahansa!</p>
+                
             </div>
-        </section>
-        <section class="mx-auto text-center mb-3">
-            <h2 class="mb-3">Tervetuloa ostoksille!</h2>
-        </section>
-        <figure id="nuottiContainer" class="mx-auto">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.32 69.918">
-                <g fill="#1a1a1a" stroke="#1a1a1a">
-                    <g transform="translate(-33.218 -10.065)">
-                        <ellipse ry="8.442" rx="13.452" cy="59.916" cx="46.67" stroke="none"/>
-                        <path d="M59.11 60.565v-49.5" stroke-width="2" stroke-linecap="round"/>
-                    </g>
-                    <g transform="translate(1.373 1.56)">
-                        <ellipse ry="8.442" rx="13.452" cy="59.916" cx="46.67" stroke="none"/>
-                        <path d="M59.11 60.565l.057-48.554" stroke-width="2" stroke-linecap="round"/>
-                    </g>
-                    <g transform="translate(37.198 -10.244)">
-                        <ellipse ry="8.442" rx="13.452" cy="59.916" cx="46.67" stroke="none"/>
-                        <path d="M59.11 60.565v-49.5" stroke-width="2"/>
-                    </g>
-                    <path d="M25.892 1L60.54 13.572" stroke-width="2" stroke-linecap="round"/>
-                </g>
-            </svg>
-            <figcaption class="sr-only">Notes animation</figcaption>
-        </figure>
-        <aside id="carouselExampleIndicators" class="carousel slide shadow-lg" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div id="carousel1" class="carousel-item active">
-                    <img src="../assets/img/pexel-synth-1000x500.webp" class="d-none d-md-block w-100" alt="Syntikka">
-                    <img src="../assets/img/pexel-synth-mobile.webp" class="d-md-none w-100" alt="Syntikka">
+            <section class="container col-md-12 d-flex flex-wrap justify-content-center">
+                <div class="card border-dark mb-3 mx-3" style="width: 20rem;">
+                    <img class="card-img-top" src="../assets/img/VST-1.jpg" alt="Blamsoft VK-1">
+                    <header class="card-header border">
+                        <h3 class="h5">Synth #1</h3>
+                    </header>
+                    <header class="card-header border bg-success text-center">
+                        <h3 class="h5">Uutuus!</h3>
+                    </header>
+                    <div class="card-body">
+                        <p class="card-text">Virtuaalista analogiaa!</p>
+                    </div>
+                    <footer class="card-footer bg-transparent d-flex flex-row">
+                        <p class="card-text align-self-center h5 text-center col-8">Hinta: 599€</p>
+                        <form action="ostoskori_full.html" class="ml-auto">
+                            <button type="submit" class="btn btn-success btn-lg align-self-center" value="vst1"><span class="h5">Osta</span></button>
+                        </form>
+                    </footer>
                 </div>
-                <div id="carousel2" class="carousel-item">
-                    <img src="../assets/img/pexels-crowd-1000x500.webp" class="d-none d-md-block w-100" alt="Yleisö">
-                    <img src="../assets/img/pexels-crowd-mobile.webp" class="d-md-none w-100" alt="Yleisö">
+                <div class="card border-dark mb-3 mx-3" style="width: 20rem;">
+                    <img class="card-img-top" src="../assets/img/VST-2.jpg" alt="Blaukraut Charlatan 2.0">
+                    <header class="card-header">
+                        <h3 class="h5">Syntikka 2.0</h3>
+                    </header>
+                    <header class="card-header border bg-success text-center">
+                        <h3 class="h5">Uutuus!</h3>
+                    </header>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus eros sed sem condimentum tincidunt. In facilisis consectetur odio, eget tristique libero condimentum vitae. Aliquam sit amet imperdiet dui.</p>
+                    </div>
+                    <footer class="card-footer bg-transparent d-flex flex-row">
+                        <p class="card-text align-self-center h5 text-center col-8">Hinta: 649€</p>
+                        <form action="ostoskori_full.html" class="ml-auto">
+                            <button type="submit" class="btn btn-success btn-lg align-self-center" value="vst2"><span class="h5">Osta</span></button>
+                        </form>
+                    </footer>
                 </div>
-                <div id="carousel3" class="carousel-item">
-                    <img src="../assets/img/pexels-sheet-1000x500.webp" class="d-none d-md-block w-100" alt="Nuotit">
-                    <img src="../assets/img/pexels-sheet-mobile.webp" class="d-md-none w-100" alt="Nuotit">
+                <div class="card border-dark mb-3 mx-3" style="width: 20rem;">
+                    <img class="card-img-top" src="../assets/img/VST-3.jpg" alt="Dead Duck Deducktion">
+                    <header class="card-header border">
+                        <h3 class="h5">Syntikka 3.01</h3>
+                    </header>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus eros sed sem condimentum tincidunt. In facilisis consectetur odio, eget tristique libero condimentum vitae. Aliquam sit amet imperdiet dui.</p>
+                    </div>
+                    <footer class="card-footer bg-transparent d-flex flex-row">
+                        <p class="card-text align-self-center h5 text-center col-8">Hinta: 989€</p>
+                        <form action="ostoskori_full.html" class="ml-auto">
+                            <button type="submit" class="btn btn-success btn-lg align-self-center" value="vst3"><span class="h5">Osta</span></button>
+                        </form>
+                    </footer>
                 </div>
-                <div id="carousel4" class="carousel-item">
-                    <img src="../assets/img/pexels-headphones-1000x500.webp" class="d-none d-md-block w-100" alt="Kuulokkeet">
-                    <img src="../assets/img/pexels-headphones-mobile.webp" class="d-md-none w-100" alt="Kuulokkeet">
+                <div class="card border-dark mb-3 mx-3" style="width: 20rem;">
+                    <img class="card-img-top" src="../assets/img/VST-4.jpg" alt="Dexed">
+                    <header class="card-header border">
+                        <h3 class="h5">Syntikka 4.04</h3>
+                    </header>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus eros sed sem condimentum tincidunt. In facilisis consectetur odio, eget tristique libero condimentum vitae. Aliquam sit amet imperdiet dui.</p>
+                    </div>
+                    <footer class="card-footer bg-transparent d-flex flex-row">
+                        <p class="card-text align-self-center h5 text-center col-8">Hinta: 369€</p>
+                        <form action="ostoskori_full.html" class="ml-auto">
+                            <button type="submit" class="btn btn-success btn-lg align-self-center" value="vst4"><span class="h5">Osta</span></button>
+                        </form>
+                    </footer>
                 </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </aside>
+                <div class="card border-dark mb-3 mx-3" style="width: 20rem;">
+                    <img class="card-img-top" src="../assets/img/VST-5.jpg" alt="Ichiro Toda Synth1">
+                    <header class="card-header border">
+                        <h3 class="h5 ">Syntikka 5.555</h3>
+                    </header>
+                    <header class="card-header border bg-warning text-center">
+                        <h3 class="h5">Tarjous!</h3>
+                    </header>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus eros sed sem condimentum tincidunt. In facilisis consectetur odio, eget tristique libero condimentum vitae. Aliquam sit amet imperdiet dui.</p>
+                    </div>
+                    <footer class="card-footer bg-transparent">
+                        <p class="card-text align-self-center h5 text-center col-8"><s>Hinta: 799€</s></p>
+                        <div class="d-flex flex-row">
+                            <p class="card-text align-self-center h5 text-center col-8">Hinta: 599€</p>
+                            <form action="ostoskori_full.html" class="ml-auto">
+                                <button type="submit" class="btn btn-success btn-lg align-self-center" value="vst5"><span class="h5">Osta</span></button>
+                            </form>
+                        </div>
+                    </footer>
+                </div>
+            </section>
+        </article>
     </main>
     <aside class="mx-auto mb-3">
         <a href="#top">Takaisin ylös ↑</a>
