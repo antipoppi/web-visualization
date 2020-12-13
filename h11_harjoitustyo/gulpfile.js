@@ -1,11 +1,15 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
+const cleanCSS = require('gulp-clean-css');
 const browserSync = require('browser-sync').create();
+
 //compile scss into css
 function style() {
     return gulp.src('src/scss/**/*.scss')
     .pipe(sass().on('error',sass.logError))
-    .pipe(gulp.dest('src/css'))
+	.pipe(gulp.dest('src/css'))
+    .pipe(cleanCSS())
+	.pipe(gulp.dest('src/css/min'))
     .pipe(browserSync.stream());
 }
 

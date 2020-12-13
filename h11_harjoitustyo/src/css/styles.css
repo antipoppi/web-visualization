@@ -7223,31 +7223,3 @@ a {
 
 main {
   min-height: 100%; }
-
-.omaClass {
-  width: 200px;
-  height: 100px;
-  align-items: center;
-  justify-content: center;
-  background: #28a745;
-  margin: auto; }
-
-.omaClass2 {
-  width: 200px;
-  height: 60px;
-  align-items: center;
-  justify-content: center;
-  background: #17a2b8;
-  margin: auto; }
-
-@media (min-width: 576px) {
-  .omaClass {
-    display: none; }
-  .omaClass2 {
-    display: flex; } }
-
-@media (min-width: 768px) {
-  .omaClass {
-    display: flex; }
-  .omaClass2 {
-    display: none; } }
