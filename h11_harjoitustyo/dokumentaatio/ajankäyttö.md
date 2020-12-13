@@ -146,6 +146,8 @@ Tänään oli viimeinen päivä tehdä tätä, keskityin korjaamaan saavutettavu
 
 - vst.html
 
+**kuvakaappauksia**
+
 - [Kuva 1. Optimoinnin tuloksia mobiili-etusivu (Google PageSpeed Insights)](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/131201.png)
 - [Kuva 2. Optimoinnin tuloksia työpöytä-etusivu (Google PageSpeed Insights)](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/131202.png)
 - [Kuva 3. Optimoinnin tuloksia (Chromen lighthouse)](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/screenshots/131203.png)
