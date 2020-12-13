@@ -134,7 +134,7 @@ Tämä päivä meni suurimmaksi osaksi lomakkeita tehden. Tein täydelle ostosko
 
 | Päivä | Aikaa meni yhteensä | Total (h) |
 | ------ | ------ | ------ |
-| 13.12.2020 | 6½h | 46.5h |
+| 13.12.2020 | 7½h | 47.5h |
 
 Tänään oli viimeinen päivä tehdä tätä, keskityin korjaamaan saavutettavuuden ongelmat [tämän wave-sivun](https://wave.webaim.org/report#/https://n4927.pages.labranet.jamk.fi/ttms0400-web-visualisointi/h11_harjoitustyo/src/) avulla. Sain kaikki punaiset virheet koko sivustolta pois, josta olen hyvin tyytyväinen. Lisäksi tein virtuaalisoittimille oman sivun (vastaava syntikkasivun kanssa). Lisäksi halusin saada custom-fontin yrityksen logoksi, mutta sen kanssa oli vähän ongelmia. Siinä vaiheessa siis, kun piti alkaa optimoimaan sivua. Sain lokaalisti toimimaan niin, että latasi fontin tietystä kansiosta ja se toimi myös gitlabin pagesissa. Mutta heti kun aloin tutkimaan lighthousella/pagespeed insightilla tuli virhettä, että preload ei toimi (vaikka se oli täysin oikein laitettu). Päädyin sitten laittamaan preloadin google-fontin sivuilta. Valitsin [Amiko fontin ](https://fonts.google.com/specimen/Amiko?sidebar.open=true&selection.family=Amiko:wght@400;600) ja katsoin woff2-tiedoston urlin [apipyynnöstä](https://fonts.googleapis.com/css2?family=Amiko:wght@400;600&display=swap). Olkoot nyt näin, kun aika loppui kesken. Tehokas päivä, vaikka en saanutkaan käyttää niin paljon aikaa kuin halusin viimeistelyyn. Sunnuntai perheen kanssa tuo omat haasteensa... :smile:
 
@@ -151,3 +151,5 @@ Tänään oli viimeinen päivä tehdä tätä, keskityin korjaamaan saavutettavu
 - [Kuva 1. Optimoinnin tuloksia mobiili-etusivu (Google PageSpeed Insights)](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/raw/pages/h11_harjoitustyo/dokumentaatio/screenshots/131201.png)
 - [Kuva 2. Optimoinnin tuloksia työpöytä-etusivu (Google PageSpeed Insights)](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/raw/pages/h11_harjoitustyo/dokumentaatio/screenshots/131202.png)
 - [Kuva 3. Optimoinnin tuloksia (Chromen lighthouse)](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/raw/pages/h11_harjoitustyo/dokumentaatio/screenshots/131203.png)
+
+EDIT: Lisätty 1h joka kului loppuraportin kirjoittamiseen.
