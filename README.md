@@ -4,9 +4,9 @@
 - **päivämäärä:** 13.12.2020
 
 **linkit:**
-- [Lähdekoodi](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/tree/pages/h11_harjoitustyo)
-- [Linkki sivulle](https://n4927.pages.labranet.jamk.fi/ttms0400-web-visualisointi/h11_harjoitustyo/src/)
-- [Ajankäyttö-dokumentti](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/ajankäyttö.md)
+- [Lähdekoodi](https://github.com/antipoppi/web-visualization/tree/pages/h11_harjoitustyo)
+- [Linkki sivulle](https://antipoppi.github.io/web-visualization/h11_harjoitustyo/src/)
+- [Ajankäyttö-dokumentti](https://github.com/antipoppi/web-visualization/blob/pages/h11_harjoitustyo/dokumentaatio/ajankäyttö.md)
 
 ## Sisältö
 1. [Yleistä](#yleistä)
@@ -47,7 +47,7 @@ Neljäntenä asiana, mistä olen ylpeä, oli tuo nuottianimaatio tuossa etusivul
 ### Ajankäyttö
 
 **Resursointi (ajankäyttö):**
-Ajankäyttö on tarkasti dokumentoituna omassa dokumentissaan [Ajankäyttö-dokumentti](https://gitlab.labranet.jamk.fi/N4927/ttms0400-web-visualisointi/-/blob/pages/h11_harjoitustyo/dokumentaatio/ajankäyttö.md). Siellä on myös hyvin pohdintaa kohdatuista haasteista ja niiden ratkaisuista. Yleisesti ottaen, sain kiitettävästi aikaa kulutettua tämän parissa vaikka tämä viikko 50 alussa poikani olikin kuumeessa enkä saanut niin kellotettua tunteja kuin olisin halunnut. Piti sitten torstaista eteenpäin laittaa tunteja reippaasti että sain aikataulullisesti kiinni. Viikonloppuna sitten piti höllätä, että ehti perheen kanssa viettää aikaa. 
+Ajankäyttö on tarkasti dokumentoituna omassa dokumentissaan [Ajankäyttö-dokumentti](https://github.com/antipoppi/web-visualization/blob/pages/h11_harjoitustyo/dokumentaatio/ajankäyttö.md). Siellä on myös hyvin pohdintaa kohdatuista haasteista ja niiden ratkaisuista. Yleisesti ottaen, sain kiitettävästi aikaa kulutettua tämän parissa vaikka tämä viikko 50 alussa poikani olikin kuumeessa enkä saanut niin kellotettua tunteja kuin olisin halunnut. Piti sitten torstaista eteenpäin laittaa tunteja reippaasti että sain aikataulullisesti kiinni. Viikonloppuna sitten piti höllätä, että ehti perheen kanssa viettää aikaa. 
 
 ### Kehitettävää
 
